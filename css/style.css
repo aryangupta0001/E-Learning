@@ -63,11 +63,33 @@
     padding-right: 10%;
 }
 
-.rightnav > i{
-    height: 15px;
-    width: 150px;
-}
-.rightnav > div input{
+.btn{
+    height: 100%;
     font-size: 15px;
     padding: 15px;
+    border: 0px;
+}
+
+.btn>img{
+    height: 50%;
+}
+
+
+.rightnav > div > input{
+    height: 100%;
+    font-size: 15px;
+    padding: 15px;
+    border: 0px;
+
+    background-color: rgb(113, 113, 113);
+
+    color: white;
+}
+
+.rightnav>div>input::placeholder{
+    color: white;
+}
+
+.rightnav>div>input::-webkit-search-cancel-button{
+    filter: invert(1.0);
 }
