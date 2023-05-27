@@ -68,17 +68,26 @@
     font-size: 15px;
     padding: 15px;
     border: 0px;
+    background-color: rgb(113, 113, 113);
 }
 
 .btn>img{
     height: 50%;
 }
 
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:active{
+    background: none;
+}
 
 .rightnav > div > input{
     height: 100%;
     font-size: 15px;
     padding: 15px;
+    padding-left: 0;
     border: 0px;
 
     background-color: rgb(113, 113, 113);
@@ -92,4 +101,8 @@
 
 .rightnav>div>input::-webkit-search-cancel-button{
     filter: invert(1.0);
+}
+
+.rightnav>div>input:focus{
+    outline: none;
 }
