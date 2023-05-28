@@ -8,6 +8,9 @@
     display: flex;
     height: 10vh;
 
+    position: sticky;
+    top: 0;
+
 }
 
 .background{
@@ -110,6 +113,8 @@
 
 .box-main{
     display: flex;
+    justify-content: space-between;
+
     height: 100vh;
     max-width: 50%;
     margin: auto;
@@ -118,19 +123,29 @@
 }
 
 .first-half{
-    display: flex;
     height: 100%;
-    width: 70%;
-
+    width: 65%;
+    
+    padding-top: 60px;
+    
+    display: flex;
     flex-direction: column;
+
+    text-align: justify;
 }
 
 .second-half{
     height: 100%;
-    width: 30%;
+    width: 25%;
+    
+    padding-top: 60px;
+
 }
 
 .second-half>img{
     max-width: 100%;
-
+    border: 5px solid beige;
+    border-radius: 100000px;
+    display: block;
+    margin: auto;
 }
