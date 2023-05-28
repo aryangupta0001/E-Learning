@@ -44,10 +44,23 @@
 .nav-list>li{
     list-style: none;
     font-size: 24px;
+
+    
+}
+
+.nav-list a:hover{
+    stroke-width: 2px;
+    text-underline-offset: 2px;
+    text-underline-position: below;
+    text-decoration: underline;
+    
 }
 
 .nav-list>div{
-    height: 100%
+    height: 100%;
+
+    /* border: 1px solid white; */
+    padding: 10px;
 }
 
 .nav-list>div>a>img{
@@ -84,7 +97,7 @@
     cursor: pointer;
 }
 
-.rightnav>div>button:active{
+.rightnav>div>button:active{    
     background: none;
 }
 
@@ -117,7 +130,7 @@
     display: flex;
     justify-content: space-between;
 
-    height: 100vh;
+    height: 90vh;
     max-width: 50%;
     margin: auto;
 
@@ -128,19 +141,36 @@
     height: 100%;
     width: 65%;
     
-    padding-top: 60px;
-    
     display: flex;
     flex-direction: column;
 
+    justify-content: center;
+    align-items: center;
+
     text-align: justify;
+}
+
+.first-half>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.big-text{
+    font-size: 49px;
+    margin-bottom: 10px;
+}
+
+.small-text{
+    font-size: 18px;
 }
 
 .second-half{
     height: 100%;
     width: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    padding-top: 60px;
 
 }
 
@@ -150,4 +180,25 @@
     border-radius: 100000px;
     display: block;
     margin: auto;
+}
+
+.buttons>button{
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    font-size: 20px;
+    color: white;
+
+    padding: 10px 20px;
+    margin: 35px 35px 0px 0px;
+    
+}
+
+.buttons>button:hover{
+    cursor: pointer;
+}
+
+.buttons>button:active{
+    background: rgba(0, 0, 0, 0.356);
 }
