@@ -222,23 +222,33 @@ main{
 }
 
 
-.news{
+.article{
     display: flex;
     height: 40vh;
+    width: 100%;
 }
 
 .right{
     flex-direction: row-reverse;
 }
 
-.news-head{
+.article-head{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 29px;
 }
 
-.news{
+/* .article{
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
 
     padding: 30px 20px;
+} */
+
+.article-img{
+    width: 30%;
+}
+
+.article-img>img{
+    max-width: 100%;
 }
