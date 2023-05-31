@@ -239,7 +239,7 @@ main{
 }
 
 .left>.article-sec{
-    padding-right: 100px;
+    padding-right: 150px;
 }
 
 .right{
@@ -247,7 +247,7 @@ main{
 }
 
 .right>.article-sec{
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 .article-sec{
