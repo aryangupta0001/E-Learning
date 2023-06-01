@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -12,7 +14,6 @@
 
     position: sticky;
     top: 0;
-
 }
 
 .background{
@@ -46,8 +47,6 @@
 .nav-list>li{
     list-style: none;
     font-size: 17px;
-
-    
 }
 
 .nav-list a:hover{
@@ -55,7 +54,6 @@
     text-underline-offset: 2px;
     text-underline-position: below;
     text-decoration: underline;
-    
 }
 
 .nav-list>div{
@@ -292,7 +290,7 @@ main{
 .contact{
     box-sizing: border-box;
     width: 98.9vw;
-    height: 80vh;
+    height: 90vh;
 
     border: 1px solid transparent;          /* to prevent margin collapsing */
     /* background: rgb(132, 134, 145); */
@@ -304,10 +302,11 @@ main{
     color: rgb(0, 0, 0);
     text-align: center;
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+
     font-size: 40px;
 
-    margin: 50px 0px;
+    margin: 45px 0px;
 
     -webkit-text-stroke-color: rgb(255, 255, 255);
     -webkit-text-stroke-width: 1px;
